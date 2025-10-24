@@ -1,13 +1,13 @@
 /*-- list of colors of the theme --*/
-$color1: #feb204;
-$color2: #74a7b2;
-$color3: #bf0000;
-$color4: #e0f5ee;
-$black: #4c4c4c;
+$color1: #ff796c;
+$color2: #ffb07c;
+//$color3: ;
+$color4: #ffffe4;
+$black: #03012d;
 
 
 /*-- general settings --*/
-$primary: $color3!default;
+//$primary: $color3!default;
 $secondary: $color2;
 $body-bg: $color4;
 $body-color: $black;
@@ -40,11 +40,11 @@ $callout-color-tip: #88388A;
 //@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Yanone+Kaffeesatz&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Quicksand:wght@300..700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Quicksand:wght@300..700&display=swap');
 
 $font-family-sans-serif: 'Poppins', sans-serif; // by default on all textes, if not specified another font in the code below
-$font-title: 'Ephesis';
+//$font-title: 'Ephesis';
 
 
 
@@ -53,14 +53,14 @@ $font-title: 'Ephesis';
 /*-- scss:rules --*/
 
 h1 { //title
-  color: $color3;
-  font-family: $font-title;
-  font-size: 100px;
+  color: $color1;
+  //font-family: $font-title;
+  font-size: 50px;
   padding: 0.2em;
 }
 
 h2 {
-  color: $color3;
+  color: $color1;
   //padding: 0.4em;
 }
 

@@ -47,6 +47,6 @@ website:
     left: |
       <span class="faux-block">&#169; 2025 Sabina Pedrazzini CC BY-SA 4.0</span>
 
-#format:
- # html:
-  #  theme: styles.scss
+format:
+  html:
+    theme: style_website.scss

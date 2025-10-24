@@ -7,10 +7,9 @@ toc: false
 about:
   template: jolla
   id: block1
-  #image: images/flower.png
   links:
-   - text: "Other templates"
-     href: https://quarto.org/docs/websites/website-about.html
+   #- text: "Other templates"
+    # href: https://quarto.org/docs/websites/website-about.html
    - icon: linkedin
      href: https://ch.linkedin.com/in/sabina-pedrazzini-543051169
    - icon: envelope
