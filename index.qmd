@@ -1,0 +1,31 @@
+---
+title: "Welcome!"
+toc: false
+---
+
+---
+about:
+  template: jolla
+  id: block1
+  #image: images/flower.png
+  links:
+   - text: "Other templates"
+     href: https://quarto.org/docs/websites/website-about.html
+   - icon: linkedin
+     href: https://ch.linkedin.com/in/sabina-pedrazzini-543051169
+   - icon: envelope
+     href: "mailto:sabina.pedrazzini@unibe.ch"
+---
+
+::: {#block1}
+:::
+
+<!-- note: to create the block above (which "calls" the yaml block): 1) go on "Source" mode 2) :::{#bock1}:::-->
+
+## Welcome on my website :)
+
+text 1
+
+### heading 3
+
+ffjfjf
