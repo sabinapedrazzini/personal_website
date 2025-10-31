@@ -1,17 +1,15 @@
 /*-- list of colors of the theme --*/
-$color1: #ff796c;
-$color2: #ffb07c;
-//$color3: ;
-$color4: #ffffe4;
-$black: #03012d;
+$color1: #a0025c;
+$color4: #fffff4;
+$black: #070d0d;
 
 
 /*-- general settings --*/
 //$primary: $color3!default;
-$secondary: $color2;
+$secondary: $color1;
 $body-bg: $color4;
 $body-color: $black;
-$headings-color: $color2;
+$headings-color: $color1;
 // navigation
 $navbar-bg: $color1;
 $link-color: $color1;
@@ -65,7 +63,7 @@ h2 {
 }
 
 h3 {
-  color: $color2;
+  color: $color1;
 //  font-family: $font-signika-negative;
   //padding: 0.3em;
 }
