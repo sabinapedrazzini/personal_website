@@ -1,0 +1,32 @@
+---
+toc: false
+---
+
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="cv.pdf" target="_blank">
+    <i class="fa-solid fa-file-arrow-down"></i>&ensp;Download current CV
+  </a>
+</p>
+```
+
+[Current position]{.maintitle}
+
+[PhD Candidate
+August 2023-present day]{.position}
+
+[Centre for Development and Environment - University of Bern]{.place}
+
+Include Commonpaths project here
+
+[Education]{.maintitle}
+
+[MSc in applied and social psychology
+September 2020-Juni 2022]{.position}
+
+[Faculty of Psychology and Educational Sciences - University of Geneva]{.place}
+
+[BSc in psychology
+September 2017-Juni 2020]{.position}
+
+[Faculty of Psychology and Educational Sciences - University of Geneva]{.place}

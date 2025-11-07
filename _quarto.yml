@@ -9,39 +9,19 @@ website:
   #navbar = on top of the page
   navbar:
     #logo: images/flower.png
-    #left:
-        
-      #- href: whoami/index.qmd  
-     #   text: "Who am I?"
+    left:
+      - href: CV/CV_index.qmd  
+        text: "CV"
         
      # - href: mywork/index.qmd
       #  text: "My work"
     
     right:
-      #- icon: github
-      #  href: https://github.com/sabinapedrazzini
       - icon: linkedin
         href: https://ch.linkedin.com/in/sabina-pedrazzini-543051169
       - icon: envelope
         href: "mailto:sabina.pedrazzini@gmail.com"
-        
 
-#sidebar = on the side
-  #sidebar:
-    #title: "My work" #this should display it only on the page called "My work"; if the title is not specified, the sidebar will appear on every page
-    #tools: 
-    #  - icon: github
-    #    href: https://github.com/sabinapedrazzini
-    #style: "floating" #"docked" if we want it more separated from the body text
-    #search: false
-    #contents:
-     # - text: "Home"
-#        href: index.qmd
-     # - section: "Basics"
-        #href: mywork/index.qmd
-     #   contents:
-       #  - text: "Home"
-      #     href: index.qmd
 
   page-footer: 
     left: |

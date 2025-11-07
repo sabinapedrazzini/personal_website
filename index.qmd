@@ -1,5 +1,4 @@
 ---
-title: "Welcome!"
 toc: false
 ---
 
@@ -7,9 +6,8 @@ toc: false
 about:
   template: jolla
   id: block1
+  image: images/profile_test.jpg
   links:
-   #- text: "Other templates"
-    # href: https://quarto.org/docs/websites/website-about.html
    - icon: linkedin
      href: https://ch.linkedin.com/in/sabina-pedrazzini-543051169
    - icon: envelope
@@ -21,10 +19,6 @@ about:
 
 <!-- note: to create the block above (which "calls" the yaml block): 1) go on "Source" mode 2) :::{#bock1}:::-->
 
-## Welcome on my website :)
+# Sabina Pedrazzini
 
-text 1
-
-### heading 3
-
-ffjfjf
+I'm a PhD candidate at the [Centre for Development and Environment](https://www.cde.unibe.ch/) of the University of Bern (Switzerland). My research focuses on the determinants of collective action in urban commons initiatives, and on its consequences for individual psychological well-being.

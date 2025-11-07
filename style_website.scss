@@ -1,18 +1,13 @@
 /*-- list of colors of the theme --*/
 $color1: #a0025c;
+$color-link:#dbb40c;
 $color4: #fffff4;
 $black: #070d0d;
 
 
-/*-- general settings --*/
-//$primary: $color3!default;
-$secondary: $color1;
-$body-bg: $color4;
-$body-color: $black;
-$headings-color: $color1;
 // navigation
 $navbar-bg: $color1;
-$link-color: $color1;
+$link-color: $color-link;
 
 
 // OTHER OPTIONS
@@ -23,47 +18,32 @@ $link-color: $color1;
 //$code-block-border-left-style: solid;
 
 
-
-
 // callout block
 $callout-color-note: #88388A;
 $callout-color-tip: #88388A;
 
 
 // font
-
-//@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Source+Code_Pro&display=swap');
-
-//@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato&family=Yanone+Kaffeesatz&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
-//@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Quicksand:wght@300..700&display=swap');
-
-$font-family-sans-serif: 'Poppins', sans-serif; // by default on all textes, if not specified another font in the code below
-//$font-title: 'Ephesis';
-
-
-
-
+$poppins: 'Poppins', sans-serif;
 
 /*-- scss:rules --*/
 
-h1 { //title
-  color: $color1;
-  //font-family: $font-title;
-  font-size: 50px;
-  padding: 0.2em;
+.maintitle {
+  font-family: $poppins;
+  font-size: 40px;
+  color: $color-link;
 }
 
-h2 {
-  color: $color1;
-  //padding: 0.4em;
+.position {
+  font-family: $poppins;
+  font-size: 25px;
+  color: #9a0200;
+  font-weight: bold;
 }
 
-h3 {
-  color: $color1;
-//  font-family: $font-signika-negative;
-  //padding: 0.3em;
+.place {
+  font-family: $poppins;
+  font-size: 20px;
+  color: #9a0200;
 }
