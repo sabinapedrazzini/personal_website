@@ -5,11 +5,13 @@ project:
 website:
   page-navigation: true
   title: "Sabina Pedrazzini"
-  #favicon: images/flower.png
   #navbar = on top of the page
   navbar:
-    #logo: images/flower.png
     left:
+      - href: Research/Research_index.qmd
+        text: "Research"
+      - href: Publications/Publications_index.qmd
+        text: "Publications"
       - href: CV/CV_index.qmd  
         text: "CV"
         

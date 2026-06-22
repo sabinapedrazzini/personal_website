@@ -21,4 +21,4 @@ about:
 
 # Sabina Pedrazzini
 
-I'm a PhD candidate at the [Centre for Development and Environment](https://www.cde.unibe.ch/) of the University of Bern (Switzerland). My research focuses on the determinants of collective action in urban commons initiatives, and on its consequences for individual psychological well-being.
+[I'm a PhD candidate at the [Centre for Development and Environment](https://www.cde.unibe.ch/) of the University of Bern (Switzerland). My research focuses on the determinants of collective action in urban commons initiatives, and on its consequences for individual psychological well-being.]{.body_centered}

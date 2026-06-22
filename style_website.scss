@@ -1,14 +1,10 @@
 /*-- list of colors of the theme --*/
 $color1: #a0025c;
 $color-link:#dbb40c;
-$color4: #fffff4;
-$black: #070d0d;
-
 
 // navigation
 $navbar-bg: $color1;
 $link-color: $color-link;
-
 
 // OTHER OPTIONS
 //$code-color: #88388A;
@@ -17,33 +13,29 @@ $link-color: $color-link;
 //$code-block-border-left: TRUE;
 //$code-block-border-left-style: solid;
 
-
-// callout block
-$callout-color-note: #88388A;
-$callout-color-tip: #88388A;
-
-
 // font
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 $poppins: 'Poppins', sans-serif;
 
 /*-- scss:rules --*/
 
-.maintitle {
+
+h1 {
   font-family: $poppins;
   font-size: 40px;
   color: $color-link;
+  text-align: center;
 }
 
-.position {
-  font-family: $poppins;
-  font-size: 25px;
-  color: #9a0200;
-  font-weight: bold;
-}
-
-.place {
+body {
   font-family: $poppins;
   font-size: 20px;
-  color: #9a0200;
+  color: black;
+}
+
+.body_centered {
+  font-family: $poppins;
+  font-size: 20px;
+  color: black;
+  text-align: center;
 }
